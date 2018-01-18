@@ -1,0 +1,21 @@
+
+header {
+    background-image:url('destin2017.jpg');
+    height: 50%;
+    width: 100%;
+    background-position: center;
+
+    
+}
+
+
+
+body {
+
+font-size: 12;
+color: blue;
+border-block-end-color: aqua;  
+border: 2px solid;
+border-color: aqua;  
+
+}
