@@ -10,13 +10,25 @@ body {
     background-color: darkgrey;
 }
 
-h2 {
-image: 
-
-}
 
 p {
     color: black;
     font-size: 1em;
     margin-bottom: 2em;
+}
+
+#headshot {
+height: 250px;
+width: 250px;
+
+}
+
+#ramsey {
+height: 250px;
+width: 250px;
+}
+
+#malandfrank {
+height: 250px;
+widows: 250px;
 }
