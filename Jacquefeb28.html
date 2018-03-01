@@ -5,7 +5,9 @@
     <title>Jacque</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="CSS/Jacque.css" />
-    <script src="main.js"></script>
+
+    <script src="jquery-3.3.1.min.js"></script>
+
 </head>
 <body>
 
@@ -35,18 +37,33 @@ field. <br>
 
 <p1>Me</p1>
 <img src="images/headshot.jpg"
-id="headshot">
+id="headshot"
+align: left>
 
 
 <p2>My Family</p2>
 <img src="images/ramsey 2.jpg" 
-id="ramsey">
+id="ramsey"
+align: center>
+
 
 <p3>Mallory and Frank </p3>
 <img src="images/malandfrank.jpg"
-id="malandfrank">
+id="malandfrank"
+align: right>
 
+<footer id="footer">
 
+</footer>
+
+<script src="js/Jacque.js"></script>
+<script>
+    var str = ["Saab", "Volvo", "BMW"];
+    
+    $( "#footer" ).each( str, function( index ) {
+        console.log( index + ": " + $( this ).text() );
+    });
+</script>
 </body>
 
 </html>
