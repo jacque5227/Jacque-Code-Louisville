@@ -6,27 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="CSS/Jacque.css" />
 
-    <script src="jquery-3.3.1.min.js"></script>
+    <!-- <script src="jquery-3.3.1.min.js"></script> -->
+    <!-- <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script>
+            $( document ).ready(function() {
+                console.log( "document loaded" );
+            });
+         
+            $( window ).on( "load", function() {
+                console.log( "window loaded" );
+            });
+            </script> -->
 
 </head>
 <body>
 
 <header>
 
-        <button type= "home" name="Home" class="astext">Home</button>
+<button type= "home" name="Home" class="astext">Home</button>
 <button type= "blog" name="Blog" class="astext">Blog</button>
 <button type= "resume" name="Resume" class="astext">Resume</button>
+<img src="images/destin2017.jpg"
+id="destin">
+
 
 </header>
 
 <h1>Jacque Ramsey Digital Portfolio</h2>
 
-<h2>
-Tennis  </h2> <!--Pictures here are to indicate 3 things that I like to do -->
+
+
 <h3> 
-Needle Pointing </h3>
+Needle Pointing 
+<img src="images/918_large_image.jpg"
+id="needlepoint">
+</h3>
 <h4>
-Mallory and Frank</h4>
+Running
+
+</h4>
 
 <p>Bio<br>
 A graduate of the University of Louisville, College of Business for both a Bachelor's degree
@@ -54,7 +72,47 @@ align: right>
 
 <footer id="footer">
 
+<!-- <style>
+
+
+#tennis-img {
+    transform-origin: top left; /* IE 10+, Firefox, etc. */
+    -webkit-transform-origin: top left; /* Chrome */
+    -ms-transform-origin: top left; /* IE 9 */
+}
+#tennis-img.rotate90 {
+    transform: rotate(90deg) translateY(-100%);
+    -webkit-transform: rotate(90deg) translateY(-100%);
+    -ms-transform: rotate(90deg) translateY(-100%);
+}
+#tennis-img.rotate180 {
+    transform: rotate(180deg) translate(-100%,-100%);
+    -webkit-transform: rotate(180deg) translate(-100%,-100%);
+    -ms-transform: rotate(180deg) translateX(-100%,-100%);
+}
+#tennis-img.rotate270 {
+    transform: rotate(270deg) translateX(-100%);
+    -webkit-transform: rotate(270deg) translateX(-100%);
+    -ms-transform: rotate(270deg) translateX(-100%);
+}
+
+</style> -->
+
+        <button id="button">Click me!</button>
+        <div id="tennis">
+          <img src="images/Tennis_Ball_1 2.png" id="tennis-img" />
+        </div>
+<!-- 
+<script>
+    var angle = 0, img = document.getElementById('tennis-img');
+document.getElementById('button').onclick = function() {
+    angle = (angle+90)%360;
+    img.className = "rotate"+angle;
+}
+</script> -->
+
 </footer>
+
 
 <script src="js/Jacque.js"></script>
 <script>
