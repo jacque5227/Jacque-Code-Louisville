@@ -5,10 +5,14 @@
 } 
 
 header {
-    background-color:black;
+    background-color:rgb(14, 204, 188);
     font-size: 20px; 
     height: 0em;
     width: 0em;
+}
+#destin {
+    width: stretch;
+
 }
 
 
@@ -18,18 +22,24 @@ body {
 
 
 p {
-    color: black;
+    color: rgb(53, 35, 35);
     font-size: 1em;
     margin-bottom: 2em;
 }
+p1 {
+    color: aliceblue;
+}
+p2 {
+    color: aliceblue;
+}
+p3 {
+    color: aliceblue;
+}
+p4 {
+    color: aliceblue;
+}
 
     }
-
-    #needlepoint {
-        height: 100px;
-        width: 100px;
-        
-        }
 
 #headshot {
 height: 250px;
@@ -45,6 +55,16 @@ width: 200px;
 #malandfrank {
 height: 250px;
 widows: 250px;
+}
+
+#needlepoint {
+height: 150px;
+weight: 150px;
+}
+
+#running {
+    height: 150px;
+    weight: 150px;
 }
 
 #tennis-img {
@@ -66,3 +86,8 @@ widows: 250px;
     transform: rotate(270deg) translateX(-100%);
     -webkit-transform: rotate(270deg) translateX(-100%);
     -ms-transform: rotate(270deg) translateX(-100%);
+}
+#tennis-img{
+    height: 150px;
+    width: 150px;
+}
