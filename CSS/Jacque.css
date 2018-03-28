@@ -1,5 +1,5 @@
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
     #leftsidebar {width: 400px; float: left;}
     #main {margin-left: 400px;}
 } 
@@ -7,64 +7,52 @@
 header {
     background-color:rgb(14, 204, 188);
     font-size: 20px; 
-    height: 0em;
-    width: 0em;
+    height: 2em;
+    width: 75em;
 }
-#destin {
-    width: stretch;
-
-}
-
-
 body {
-    background-color: darkgrey;
+    background-color: rgb(253, 252, 252);
 }
-
 
 p {
-    color: rgb(53, 35, 35);
+    color: rgb(37, 36, 36);
     font-size: 1em;
     margin-bottom: 2em;
 }
-p1 {
-    color: aliceblue;
-}
-p2 {
-    color: aliceblue;
-}
-p3 {
-    color: aliceblue;
-}
-p4 {
-    color: aliceblue;
-}
-
-    }
 
 #headshot {
 height: 250px;
 width: 200px;
-
+border-radius: 100px;
+padding: 20px; 
 }
 
 #ramsey {
 height: 200px;
 width: 200px;
+border-radius: 100px;
+padding: 20px; 
 }
 
 #malandfrank {
 height: 250px;
 widows: 250px;
+border-radius: 100px;
+padding: 20px; 
 }
 
 #needlepoint {
 height: 150px;
 weight: 150px;
+border-radius: 100px;
+padding: 20px; 
 }
 
 #running {
-    height: 150px;
-    weight: 150px;
+height: 150px;
+weight: 150px;
+border-radius: 100px;
+padding: 20px; 
 }
 
 #tennis-img {
